@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    margin: 0;
+  }
+  
+  header {
+    padding: 60px;
+    text-align:left;
+    background: #13293d;
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    background-color: black;
+    color: white;
+  }
+  
+  nav p {
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  aside {
+    flex: 30%;
+    background-color: #b9c6ae;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    flex: 70%;
+    background-color: #fff;
+    padding: 20px;
+  }
+  
