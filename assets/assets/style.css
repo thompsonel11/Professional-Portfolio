@@ -7,7 +7,7 @@
 
 body {
     font-family: var (--font);
-    margin: 0;
+    margin: 0 auto;
     background-color: white;
   }
 
@@ -19,7 +19,7 @@ main {
 
  /* Name and Navigation Menu */
 
-.Name-and-Nav{
+.Name-and-Nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -27,16 +27,17 @@ main {
   padding: 30px 0px 0px 0px;
 }
 
-#Name{
+#Name {
   font-size: 16px;
   color: white;
   background-color: teal;
-  border-radius: 0px 20px 20px 0px;
-  padding: 10px 100px 10px 20px 
+  border-radius: 0px 10px 10px 0px;
+  padding: 10px 80px 10px 20px;
+  text-align: right;
 }
 
 #Navigation ul a:hover {
-  color: white;
+  color: yellow;
   transition: 0s;
   border-bottom: white 2px;
 }
@@ -46,21 +47,28 @@ main {
   display: inline-flex;
   justify-content: space-evenly;
   border-bottom: white 2px;
+  text-decoration: none;
+  color:whitesmoke;
 }
 
 
 /* Software Engineer & Personal Photo */
 
 .Software-Engineer {
-  justify-content: right;
   font-size: 14px;
   color: white;
   background-color: teal;
+  height: 20vh;
 }
 
-.Software-Engineer img {
+.job-title {
+  margin-left: 5vw;
+}
+
+.personal-photo img {
   height: 200px;
-  border-radius: 0px 20px 20px 0px;
+  float:right;
+  border-radius: 20px 20px 20px 20px;
 }
 
 /* Left Menu Headers */
@@ -71,13 +79,30 @@ text-align: right;
 }
 
 /* About Me Content */
+
+.About-Me {
+  float:left;
+  width: 30%;
+}
+
+.v1 {
+  border-right: 4px solid gray;
+  position:absolute;
+}
+
+.About-Me-Container {
+  margin: 20vh 3vw 3vw 2vh;
+}
+
 .About-Me-Content {
-  font: 
+  float:left;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 70%;
 }
 
 .About-Me-Content .HELLOWORLD {
 font-family: 'Courier New', Courier, monospace;
-
+}
 /* Work Content */
 
 .Work-Container {
@@ -100,9 +125,16 @@ font-size: 10px;
 width: 40%;
 }
 
-/* Contact Me Content  */
-.Contact-Me-Content {
+.Container-Content .img {
+  border:teal solid 2px
+}
 
+/* Contact Me Content  */
+.Contact-Me-Content ul a {
+  float: center;
+  display: inline-flex;
+  justify-content: space-evenly;
+  border-bottom: white 2px;
 }
 
 #Contact-Me-Content ul a:hover {

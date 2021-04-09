@@ -12,29 +12,35 @@
 
   <body>
     <header class="Name-and-Nav">
-      <header id="Name">
+      <div id="Name">
         <h1>Liz Thompson</h1>
-      </header>  
+      </div> 
 
       <nav id="Navigation">
         <ul>
-          <a href="#">About Me</a>
-          <a href="#">Work</a>
-          <a href="#">Contact Me</a>
+          <a href="#aboutMe">About Me</a>
+          <a href="#WORK">Work</a>
+          <a href="#contactMe">Contact Me</a>
           <a href="https://drive.google.com/file/d/16-8OLTf9GzKM454tnOQcs9c80Sx5264N/view?usp=sharing" target="_blank">Resume</a>
         </ul>
       </nav>
     </header>
 
     <header class="Software-Engineer">
-      <h1>Software Engineer</h1>
-      <img src="pic.jpg" alt="Liz Thompson">
+      <div class="job-title">
+        <h1>Software Engineer</h1>
+      </div>
+      <div class="personal-photo">
+        <img src="pic.jpg" alt="Liz Thompson">
+      </div>  
     </header>
 
 <!-- About Me -->
+ <section class="About-Me-Container" id="aboutMe">
 
     <aside class="About-Me">
-        <h2>About Me</h2>  
+        <h2>About Me</h2> 
+     <div class="v1"></div> 
     </aside>
 
     <div class ="About-Me-Content">
@@ -49,14 +55,16 @@
         I discovered I had a niche for programming and logic and decided to enroll in the UNC Coding Bootcamp to become more marketable and flexible in my career. 
       </p>
     </div>
- 
+
+ </section>
 <!-- Work Container  -->
+<section class="WORK">
 
     <aside class="Work">
       <h2>Work</h2>
     </aside>
 
-    <section class="Work-Container"
+    <section class="Work-Container">
       <div class="Container-Content" id="Project-1">
         <div class="Container-Lable">
           <h3>P1 Title</h3>
@@ -91,13 +99,16 @@
 
       <div class="Container-Content" id="Project-5">
         <div class="Container-Lable">
-          <h3>P2 Title</h3>
+          <h3>P5 Title</h3>
           <p>P5 description</p>
         </div>  
           <img src="Project 5.jpg"> 
       </div>
 
+  </section>
       <!-- Contact Me Section -->
+
+    <section class="Contact-Me-Container" id="ContactMe">
 
       <aside class="Contact-Me">
         <h2>Contact Me</h2>
@@ -112,6 +123,7 @@
           </ul>
         </nav>  
 
+    </section>
     </main>
 
   </body>
