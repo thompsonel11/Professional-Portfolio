@@ -10,7 +10,13 @@ body {
     margin: 0;
   }
 
- /* Top bar containing name and navigation menu */
+main {
+    display: flex;
+    background-color: blanchedalmond;
+    color:#13293d
+  }  
+
+ /* Name and Navigation Menu */
 
 .Name-and-Nav{
   display: flex;
@@ -47,7 +53,8 @@ body {
 }
 
 
-/* Software Engineer & Photo */
+/* Software Engineer & Personal Photo */
+
 .Software-Engineer {
   justify-content: right;
   font-size: 16px;
@@ -60,9 +67,9 @@ body {
   border-radius: 50%;
 }
 
-/* About Me */
+/* Left Menu Headers */
 
-.About-Me .Work {
+.About-Me .Work .Contact-Me {
 height: 200px;
 width: 200px;
 float: left;
@@ -73,17 +80,12 @@ margin-right: 50px;
 
 }
 
-/* Right side of webpage with content */
-
-main {
-  display: flex;
-  background-color: blanchedalmond;
-  color:#13293d
-}  
-
-.about-me {
-
+/* About Me Content */
+.About-Me-Content {
+  font: var (--font)
 }
+
+/* Work Content */
 
 .Work-Container {
   display: flex;
@@ -93,9 +95,23 @@ main {
   border-color: var (--dark-steel);
   width: 150px;
   height: 150px;
+}
+
+.Work-Content {
 
 }
 
-.contact-me
+/* Contact Me Content  */
+.Contact-Me-Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  float: right;
+  text-decoration: underline;
+  font-size: 14px;
+  color: white;
+  background-color: #13293d;
+}
 
   
