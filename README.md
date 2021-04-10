@@ -1,22 +1,26 @@
 # Professional-Portfolio
 
+The purpose of this webpage is to create a professional portfolio to display work, contact information, and information about myself. 
 
+## Navigation Bar
 
-## User Story
-<!-- AS AN employer I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position -->
+The navigation bar is located in the top, right portion of the webpage. When you select the "About Me", "Work", or "Contact Me" tabs, you will be directed to the corresponding content on the webpage.  When you select the "Resume" tab, you will be directed to a Google doc that contains a pdf of my resume. This will open in a new tab. 
 
-## Acceptance Criteria
-<!-- GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport -->
+![](images/AboutMe.png)
+
+## About Me
+
+The "About Me" portion of this webpage contains a photo, work-related information, job title, name and location.  This portion of the webpage can be accessed by clicking on the "about me" tab on the navigation bar in the top, right portion of the webpage. 
+
+## Work
+
+The "Work" portion of this webpage contains the main content of the portfolio. Since this is my first real project, you will see placeholder images and descriptions. Once we have completed more projcts, those projects will be linked appropriately by incorporating images of the webpage and links. The "work" portion of this webpage can be easily accessed by selecting the "Work" tab on the navigation bar in the top, right portion of the webpage. 
+
+![](images/Work.png)
+
+## Contact Me
+
+The "Contact Me" portion of this webpage contains links to my LinkedIn and GitHub as well as my email and phone number.  This portion of the webpage can be accessed by clicking on the "Contact Me" tab on the navigation bar in the top, right portion of the webpage. 
+
+![](images/ContactMe.png)
+
