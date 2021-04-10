@@ -24,3 +24,7 @@ The "Contact Me" portion of this webpage contains links to my LinkedIn and GitHu
 
 ![](images/ContactMe.png)
 
+
+### Portfolio IO: 
+https://thompsonel11.github.io/Professional-Portfolio/
+
