@@ -1,21 +1,15 @@
 :root {
-  --font: sans-serif, 
-  --dark-teal: #3e7487,
-  --steel: #363d40,
-  --white: #fcfcfc,
+  --font: Arial, Helvetica, sans-serif; 
+  --dark-teal: #389999;
+  --steel: #363d40;
+  --white: #f7c5c5;
 }
 
 body {
-    font-family: var (--font);
-    margin: 0 auto;
-    background-color: white;
+    font-family: var(--font)
+    /* margin: 0 auto; */
+    /* background-color: white; */
   }
-
-main {
-    display: flex;
-    background-color: blanchedalmond;
-    color:#13293d
-  }  
 
  /* Name and Navigation Menu */
 
@@ -24,20 +18,21 @@ main {
   flex-wrap: wrap;
   justify-content: space-between;
   background-color: #163857;
-  padding: 30px 0px 0px 0px;
+  padding: 30px 0px 30px 0px;
+  font-family: var(--font);
 }
 
 #Name {
-  font-size: 16px;
+  font-size: 24px;
   color: white;
-  background-color: teal;
+  background-color: var(--dark-teal);
   border-radius: 0px 10px 10px 0px;
   padding: 10px 80px 10px 20px;
   text-align: right;
 }
 
 #Navigation ul a:hover {
-  color: yellow;
+  color: teal;
   transition: 0s;
   border-bottom: white 2px;
 }
@@ -49,6 +44,8 @@ main {
   border-bottom: white 2px;
   text-decoration: none;
   color:whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 14px 20px;
 }
 
 
@@ -57,89 +54,143 @@ main {
 .Software-Engineer {
   font-size: 14px;
   color: white;
-  background-color: teal;
-  height: 20vh;
+  background-color:var(--dark-teal);
+  height: 15vh;
+  font-family: var(--font)
 }
 
 .job-title {
   margin-left: 5vw;
+  font-family: var(--font)
 }
 
-.personal-photo img {
-  height: 200px;
-  float:right;
-  border-radius: 20px 20px 20px 20px;
+
+/* Left Side:  ABOUT ME , WORK, CONTACT ME */
+.Side-Content {
+  text-align: right;
+  width: 30%;
+  border-right: black solid 2px;
+  font-family: var(--font)
 }
 
-/* Left Menu Headers */
-
-.About-Me .Work .Contact-Me {
-font-size: 10px;
-text-align: right;
-}
 
 /* About Me Content */
-
-.About-Me {
-  float:left;
-  width: 30%;
+.About-Me-Container, .Work-Container, .Contact-Me-Container {
+  /* margin: 20vh 3vw 3vw 2vh; */
+  background-color: gray;
+  display: flex;
+  padding: 10px 0;
 }
 
-.v1 {
-  border-right: 4px solid gray;
-  position:absolute;
-}
-
-.About-Me-Container {
-  margin: 20vh 3vw 3vw 2vh;
+.About-Me-Content img {
+  /* height: 250px;
+  float:right;
+  border-radius: 20px 20px 20px 20px;
+  padding: 10px; */
+  height: 250px;
+  float:right;
+  
 }
 
 .About-Me-Content {
-  float:left;
+  /* float:left; */
   font-family: Arial, Helvetica, sans-serif;
   width: 70%;
+  display:flex;
+}
+
+.description-me {
+  padding: 26px;
 }
 
 .About-Me-Content .HELLOWORLD {
-font-family: 'Courier New', Courier, monospace;
+  font-family:'Courier New', Courier, monospace;
 }
+
 /* Work Content */
 
-.Work-Container {
+/* /* .Work-Container {
+  /* display:flex;
+  flex-direction: column; */
+  /* margin: 20vh 3vw 3vw 2vh; */
+  /* display: flex; 
+   
+} */
+
+.Work-Content {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: baseline;
-  border-color: teal;
-  width: 150px;
-  height: 150px;
+  flex-direction: column;
+  /* justify-content: baseline; */
+  width: 70%;
+  /* width: 150px;
+  height: 150px; */
  }
 
-.Container-Content {
+ #Project-1 {
+   margin: 30px;
+ }
 
+ #Project-1 img{
+   width: 100%;
+   height: auto;
+ }
+
+ #bottom {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+ }
+
+.Project-Content {
+  position:relative;
+}
+
+.proj-container {
+  min-width: 300px;
+  min-height: 200px;
+  margin: 30px;
+}
+
+.proj-container img {
+  height: 100%;
+  width: 100%;
+  /* object-fit: cover; */
 }
 
 .Container-Lable {
-background-color: teal;
-color: black;
-font-size: 10px;
-width: 40%;
+  background-color: var(--dark-teal);
+  color: black;
+  font-size: 10px;
+  width: 30%;
+  position:absolute;
+  bottom:20px;
+  left:20px;
+  padding-right:20px;
+  padding-left:20px;
+  opacity: 85%;
 }
 
-.Container-Content .img {
-  border:teal solid 2px
-}
 
 /* Contact Me Content  */
-.Contact-Me-Content ul a {
-  float: center;
+
+/* .Contact-Me-Container {
+  margin: 20vh 3vw 3vw 2vh;
+} */
+
+#Contact-Me-Content ul a {
+  float: right;
   display: inline-flex;
   justify-content: space-evenly;
   border-bottom: white 2px;
+  text-decoration: none;
+  color:black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px 20px;
 }
 
 #Contact-Me-Content ul a:hover {
-  color: white;
   transition: 0s;
-  border-bottom: white 2px;
+  border-bottom: yellow 2px;
+  color:var(--dark-teal);
 }
   
