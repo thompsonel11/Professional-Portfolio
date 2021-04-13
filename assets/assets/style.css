@@ -9,8 +9,9 @@ body {
     font-family: var(--font)
   }
 
- /* Name and Navigation Menu */
+/* Name and Navigation Menu */
 
+/* Classes */
 .Name-and-Nav {
   display: flex;
   flex-wrap: wrap;
@@ -20,6 +21,7 @@ body {
   font-family: var(--font);
 }
 
+/* IDs */
 #Name {
   font-size: 24px;
   color: white;
